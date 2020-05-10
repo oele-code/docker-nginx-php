@@ -1,8 +1,8 @@
-PHP 7.3 FPM & CLI + Nginx
+PHP FPM & CLI + Nginx
 =========================
 
-My personal PHP 7 image for laravel and PHP projects used in development and CI pipelines. See the docker file for more info.
+Docker image of Nginx with diferents php versions.
 
 Credits:
 
-I builded this image based on the [Shipping docker course](https://shippingdocker.com), actually i pretty much stole all the docker file from there XD so the credit goes to [Chris Fidao](https://twitter.com/fideloper).
+Based on [joselfonseca/docker-nginx-php-73-dev](https://github.com/joselfonseca/docker-nginx-php-73-dev), thanks for amazing work! 👏
