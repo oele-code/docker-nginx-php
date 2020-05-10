@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Jose Fonseca <jose@ditecnologia.com>
+MAINTAINER Osmell Caicedo <correo.oele@gmail.com>
 
 RUN apt-get clean && apt-get -y update && apt-get install -y locales && locale-gen en_US.UTF-8
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US.UTF-8' LC_ALL='en_US.UTF-8'
